@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <head>
     <title>HTML USHTRIME</title>
-</head>
-<style>
-    
-td, th {
-  border: 1px solid #000000;
-  text-align: left;
-  padding: 8px;
-}
-</style>
+    <style>
+        .container{
+            width: 85%; 
+            margin: auto;
+        }
+        table {
+             border-collapse: collapse;
+        }       
 
-<style>
-    
-    td, th {
-      border: 1px solid #000000;
-      text-align: left;
-      padding: 8px;
-    }
+        table, th, td {
+             border: 1px solid black;
+        }
     </style>
+</head>
+
+
 
 <body>
+    <div class="container">
+
+    
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbdFxxHK9rq4CAtGIu-7U5CCOKtOsMZSBB5z2lxeSiU9WXmasR&usqp=CAU" alt="Foto" width="100" height="100">
     <h1>SKILLS</h1>
     <p><b>Technical Skills</b>: Html/Html5, Css/Css3, Javascript/Jquery, Php, Asp.net, Bootstrap Structure</p>
@@ -87,11 +88,12 @@ td, th {
 
         </tbody>
     </table>
-    <div style="width: 100%; text-align: center;"  > 
-    <p>Age Table</p>
-    <table>
+
+    <div style="width: 40%;"  > 
+    <p style="text-align: center;">Age Table</p>
+    <table style="width: 100%;">
         <tr>
-            <td><b>Mosha</b></td>
+            <td colspan="3"><b>Mosha</b></td>
            
         </tr>
 
@@ -104,6 +106,7 @@ td, th {
 
     </tbody>
 </table>
+</div>
 </div>
 </div>
 </body>
